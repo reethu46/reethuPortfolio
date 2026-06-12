@@ -7,21 +7,21 @@ function App() {
       title: 'TaskOrbit',
       description: 'A modern Kanban board application featuring task management, column state persistence via Local Storage, and fluid UI.',
       tags: ['React', 'Local Storage', 'State Management'],
-      link: 'https://github.com/reethu46/TaskOrbit'
+      link: 'https://task-orbit-seven.vercel.app'
     },
     {
       id: 2,
       title: 'FlickRadar',
       description: 'A cinematic movie discovery tool. Integrated with the OMDB API to fetch real-time movie data, handling async states and error boundaries.',
       tags: ['React', 'Fetch API', 'Async/Await'],
-      link: 'https://github.com/reethu46/-FlickRadar-Movie-Search-'
+      link: 'https://flick-radar-movie-search.vercel.app'
     },
     {
       id: 3,
       title: 'WealthWeaver',
       description: 'A personal finance dashboard. Tracks income and expenses, calculates dynamic balances, and persists financial data securely.',
       tags: ['React', 'Data Structures', 'Hooks'],
-      link: 'https://github.com/reethu46/WealthWeaver'
+      link: 'https://wealth-weaver.vercel.app' // Make sure this matches your WealthWeaver Vercel link!
     }
   ];
 
@@ -157,7 +157,7 @@ function App() {
                 ))}
               </div>
               <a href={project.link} className="project-link" target="_blank" rel="noopener noreferrer">
-                View Repository &rarr;
+                View Live Website &rarr;
               </a>
             </div>
           ))}
