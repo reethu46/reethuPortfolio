@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
 
 :root {
   --bg-primary: #050505;
@@ -12,14 +12,14 @@
 * { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   background-color: var(--bg-primary);
   color: var(--text-primary);
   overflow-x: hidden;
   position: relative;
 }
 
-h1, h2, h3, .logo { font-family: 'Syne', sans-serif; }
+h1, h2, h3, .logo { font-weight: 700; letter-spacing: -0.5px; }
 
 .bg-orb {
   position: fixed; border-radius: 50%; filter: blur(100px); z-index: -1;
@@ -71,7 +71,7 @@ section {
 .timeline-item:hover { transform: translateX(5px); background: rgba(255,255,255,0.05); }
 .timeline-date { color: var(--accent); font-weight: 600; margin-bottom: 0.5rem; font-size: 0.9rem; letter-spacing: 1px; text-transform: uppercase; }
 .timeline-title { font-size: 1.3rem; margin-bottom: 0.5rem; }
-.timeline-subtitle { color: var(--text-secondary); margin-bottom: 1rem; font-weight: 500; font-family: 'Syne', sans-serif;}
+.timeline-subtitle { color: var(--text-secondary); margin-bottom: 1rem; font-weight: 500; }
 .timeline-desc { line-height: 1.6; color: var(--text-secondary); }
 
 /* Skills styling */
